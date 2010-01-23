@@ -1,0 +1,9 @@
+{
+    "name": "closure-compiler",
+    "description": "Closure Compiler",
+    "keywords": [
+        "minify",
+        "compress"
+    ],
+    "version": "0.0.1"
+}

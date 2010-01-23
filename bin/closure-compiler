@@ -1,0 +1,8 @@
+#!/usr/bin/env narwhal
+
+var FILE = require("file");
+var OS = require("os");
+var SYSTEM = require("system");
+
+var path = FILE.join(FILE.dirname(FILE.dirname(module.path)), "compiler.jar");
+OS.exit(OS.system(["java", "-jar", path].concat(SYSTEM.args.slice(1))));
